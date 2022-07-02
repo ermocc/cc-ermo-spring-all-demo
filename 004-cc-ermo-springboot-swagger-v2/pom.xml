@@ -8,33 +8,45 @@
         <version>2.5.14</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
-
     <groupId>cc.ermo</groupId>
-    <artifactId>003-cc-ermo-springboot-anno-configuration-properties</artifactId>
+    <artifactId>004-cc-ermo-springboot-swagger-v2</artifactId>
     <version>1.0-SNAPSHOT</version>
-    <name>003-cc-ermo-springboot-anno-configuration-properties</name>
+    <name>004-cc-ermo-springboot-swagger-v2</name>
 
     <properties>
         <java.version>1.8</java.version>
     </properties>
-
     <dependencies>
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
-
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-configuration-processor</artifactId>
             <optional>true</optional>
         </dependency>
-
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-test</artifactId>
             <scope>test</scope>
         </dependency>
+        <dependency>
+            <groupId>io.springfox</groupId>
+            <artifactId>springfox-swagger2</artifactId>
+            <version>2.9.2</version>
+        </dependency>
+        <dependency>
+            <groupId>io.springfox</groupId>
+            <artifactId>springfox-swagger-ui</artifactId>
+            <version>2.9.2</version>
+        </dependency>
+<!--        <dependency>-->
+<!--            <groupId>org.projectlombok</groupId>-->
+<!--            <artifactId>lombok</artifactId>-->
+<!--            <version>1.18.20</version>-->
+<!--            <optional>true</optional>-->
+<!--        </dependency>-->
     </dependencies>
 
     <build>
